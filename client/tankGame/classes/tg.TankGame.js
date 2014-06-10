@@ -346,7 +346,7 @@ tg.TankGame = new Class({
 		this.player.hp -= tg.config.weapons[message.type].damage;
 		
 		this.sound.play('hit_tank_self');
-		console.log('You were hit with a %s by %s! Your HP: %d', message.type, message.name, this.player.hp);
+		console.log(alert('You were hit with a %s by %s! Your HP: %d', message.type, message.name, this.player.hp));
 		
 		if (this.player.hp <= 0) {
 			// Player is dead

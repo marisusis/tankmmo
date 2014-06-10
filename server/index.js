@@ -42,10 +42,10 @@ var players = {};
 
 var mapItems = [
 	{ type: 'Barrel', pos: [10, 20], rot: 0, hp: 100 },
-	{ type: 'Crate',  pos: [10, 30], rot: 0, hp: 100 }
+	{ type: 'Crate',  pos: [10, 50], rot: 0, hp: 100 }
 ];
 
-var mapSize = 1600;
+var mapSize = 100;
 var maxSpeed = 200; // units per second
 
 function getRandomCoord() {
