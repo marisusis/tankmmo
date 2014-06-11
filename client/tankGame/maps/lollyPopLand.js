@@ -79,6 +79,9 @@ tg.maps['Lollypop Land'] = {
 
 		{ type: 'WallSection', 		pos: [-64, -800], 	rot: 0 },
 
-	    // Turrent, incomplete // { type: 'Turret', pos: [96,64], rot: Math.PI/4*3 },
+	    { type: 'Turret', pos: [96,64], rot: Math.PI/4*3 },
+        { type: 'Turret', pos: [86,64], rot: Math.PI/4*3 },
+        { type: 'Turret', pos: [76,64], rot: Math.PI/4*3 },
+        { type: 'Turret', pos: [66,64], rot: Math.PI/4*3 },
 	]
 };
